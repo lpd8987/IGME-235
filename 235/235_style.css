@@ -1,0 +1,127 @@
+/*Rules applied to multiple sections*/
+
+header h1, #bio h2, #github{
+    text-align: center;
+}
+
+#bio, #projects, #github{
+    background-color: #748cab;
+}
+
+
+.about, .class_work{
+    display: flex;
+    flex-direction: row;
+}
+
+#projects, #github{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 10px;    
+}
+
+h1, h2{
+    font-family: 'Grenze Gotisch', cursive;
+    background-color: #3e5c76;
+}
+
+p,li{
+    font-family: 'Cinzel', serif;
+    font-size: medium;
+    font-weight: 200;
+    background-color: #f0ebd8;
+}
+
+
+
+/*Rules applied to single sections*/
+body{
+    color: #0d1321;
+    background-color: #1d2d44;
+}
+
+/*Top half of the page- .about div:*/
+.about{
+    margin-bottom: 5px;
+}
+
+/*Bio Section div:*/
+#bio{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    border: solid 1px black;
+    margin-left: 75px;
+    width: 90%;
+}
+
+
+
+/*Picture Section div:*/
+#picture{
+    display: flex;
+    justify-content: right;
+    width: 50%
+}
+
+#picture img{
+    border: solid 1px black;
+    width: 75%;
+    margin-left: 5px;
+}
+
+
+/*Bottom half of the page- .class_work div:*/
+#projects{
+    margin-left: 3.5%;
+    margin-right: 3px;
+}
+
+#github{
+    margin-left: 3px;
+}
+
+
+/*Lists*/
+ul{
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+}
+
+li{
+    padding: 20px;
+    margin-right: 40px; 
+    margin-bottom: 10px;
+}
+
+/*Links*/
+a{
+    text-decoration: none;
+}
+
+a:link{
+    color: #748cab;
+    font-weight: 500;
+}
+
+a:visited{
+    color: #1d2d44
+}
+
+a:focus{
+    color: #f0ebd8;
+    background-color: #748cab;
+}
+
+a:hover{
+    color: #f0ebd8;
+    background-color: #748cab;
+}
+
+a:active{
+    color: lightgrey;
+    background-color: #3e5c76;
+}
